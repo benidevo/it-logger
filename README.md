@@ -1,15 +1,17 @@
 ## IT Logger 
 
-A facilities' management app
- 
+A facilities' management app for logging technical problems.
+
+![Screenshot](ITLogger.png?raw=true "IT Logger")
 
 ## Technologies 
 
 The following technologies were used in this project:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
-- [React.js](https://reactjs.org/)
+- [Materialize CSS](https://materializecss.com/)
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
 - [JSON Server](https://github.com/typicode/json-server)
 
 
@@ -27,4 +29,4 @@ Before starting, you need to have [Git](https://git-scm.com) and [Node](https://
 
 ## Start server
 
-    npm start
+    npm run dev

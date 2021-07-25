@@ -4,15 +4,29 @@
       "id": 1,
       "tech": "Sam Smith",
       "attention": false,
-      "message": "Machine is now working",
-      "date": "2021-07-24T21:53:55.708Z"
+      "message": "Changed network card in server 007",
+      "date": "2021-07-25T01:57:29.663Z"
     },
     {
       "id": 2,
       "tech": "John Doe",
+      "attention": false,
+      "message": "Fixed hard drive on workstation 002",
+      "date": "2021-07-25T01:57:26.808Z"
+    },
+    {
+      "id": 3,
+      "tech": "Sara Wilson",
       "attention": true,
-      "message": "Internet is completely down now and forever",
-      "date": "2021-07-24T22:10:08.600Z"
+      "message": "1122 wireless down",
+      "date": "2021-07-25T01:57:19.853Z"
+    },
+    {
+      "id": 4,
+      "tech": "Sara Wilson",
+      "attention": false,
+      "message": "Workstation 026 is up and running",
+      "date": "2021-07-25T01:57:34.411Z"
     }
   ],
   "techs": [

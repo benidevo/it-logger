@@ -50,7 +50,7 @@ export const addLog = log => async dispatch => {
     } catch (err) {
         dispatch({
             type: LOGS_ERROR,
-            payload: err.response.data
+            payload: err.response.statusText
         });
     }
 };
@@ -75,16 +75,15 @@ export const deleteLog = id => async dispatch => {
             method: 'DELETE'
         });
        
-        
         dispatch({
             type: DELETE_LOG,
             payload: id
-        })
+        });
     } catch (err) {
         dispatch({
             type: LOGS_ERROR,
-            payload: err.response.data
-        })
+            payload: err.response.statusText
+        });
     }
 };
 
@@ -103,9 +102,12 @@ export const updateLog = log => async dispatch => {
         dispatch({
             type: UPDATE_LOG,
             payload: data
-        })
+        });
     } catch (err) {
-        
+        dispatch({
+            type: LOGS_ERROR,
+            payload: err.response.statusText
+        });
     }
 };
 
